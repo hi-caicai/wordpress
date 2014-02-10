@@ -1,0 +1,30 @@
+/*
+Theme Name: Cola Chan
+Theme URI: 
+Author: Cola Chan
+Author URI: http://colachan.com/
+Description: private template
+Version: 1.0
+License: 
+License URI: 
+Tags:
+Text Domain: colachan
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* reset */
+* { margin:0; padding:0; }
+a img { border:none; }
+ol, ul { list-style:none; }
+label, button, input[type="submit"], input[type="button"], input[type="reset"] { cursor:pointer; }
+input[type=button], input[type=submit]{
+	-webkit-appearance:none;
+	outline:none
+}
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{ display:block; }
+table { width:100%; border-collapse:collapse; border-spacing:0; }
+.clear { clear:both; display:block; height:0px; overflow:hidden; }
+.clearfix { zoom:1; }
+.clearfix:after { clear:both; display:block; height:0; content:"."; visibility:hidden; }
